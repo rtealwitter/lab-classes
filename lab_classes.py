@@ -1,22 +1,5 @@
 #!/usr/bin/python3
-'''
-# Lab: Classes
-
-This is the second object-oriented lab. Where the reading showed you how to
-*read* a class, here you *write* two of them: a `User` and a `Tweet`. They are
-the same two types the Twitter clone in Project 5 is built out of, so this lab
-is a running head start on the final project.
-
-Fill in the body of every method below so that its doctests pass. Run the tests
-from your terminal until the command falls silent:
-
-    python3 -m doctest lab_classes.py
-
-Reminders from the reading: every method's first parameter is `self`, the
-instance it acts on; you store data on the instance with `self.name = value` in
-`__init__`; and the dunder methods `__str__` (what `print` shows) and `__eq__`
-(what `==` means) let your objects behave like Python's built-in types.
-'''
+'''Starter types for the Classes lab and the final project.'''
 
 
 class User:
